@@ -15,8 +15,7 @@ public final class WindowsBasedLaptop extends Laptop {
 	 * @param speed
 	 */
 	public WindowsBasedLaptop(String brand, String model, int speed) {
-		super(brand, model, speed);
-		// TODO Auto-generated constructor stub
+		super(brand, model, speed, LaptopType.HEAVY);
 	}
 	
 	public WindowsBasedLaptop(String brand, String model) {

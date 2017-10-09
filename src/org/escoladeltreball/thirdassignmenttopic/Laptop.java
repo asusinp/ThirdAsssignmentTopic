@@ -9,13 +9,16 @@ package org.escoladeltreball.thirdassignmenttopic;
  */
 public abstract class Laptop extends DeviceImpl {
 
+	private LaptopType type;
+	
 	/**
 	 * @param brand
 	 * @param model
 	 * @param speed
 	 */
-	public Laptop(String brand, String model, int speed) {
+	public Laptop(String brand, String model, int speed, LaptopType type) {
 		super(brand, model, speed);
+		this.type = type;
 	}
 
 	/* (non-Javadoc)

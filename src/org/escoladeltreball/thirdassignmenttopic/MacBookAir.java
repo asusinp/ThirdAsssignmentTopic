@@ -15,7 +15,7 @@ public final class MacBookAir extends Laptop {
 	 * @param speed
 	 */
 	public MacBookAir(String brand, String model, int speed) {
-		super(brand, model, speed);
+		super(brand, model, speed, LaptopType.ULTRALIGHT);
 	}
 	
 	public MacBookAir(String brand, String model) {
